@@ -21,7 +21,7 @@ Usages:
         sudo python3 weather.py
     
     -Logging prompt with default increment...
-        sudo python3 weather.py --log --format
+        sudo python3 weather.py --log --format json
     
     -Logging enabled with default filepath and custom increment.
         sudo python3 weather.py --noconfirm --increment 60
