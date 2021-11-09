@@ -4,7 +4,8 @@ Author: Codex-Major
 Notes:
     You may change the defaultFilepath on line 8 to wherever you'd like your logfile to go.
     You may change the defaultFormat on line 9 to your desired default format.
-    You may also change the defaultIncrement on line 10 to any number of seconds. 
+    You may also change the defaultIncrement on line 10 to any number of seconds.
+    The --format argument is a work in progress and will soon support the csv format.
     
 Arguments:
     --help              Shows this message.
