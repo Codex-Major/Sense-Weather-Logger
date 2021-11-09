@@ -6,7 +6,7 @@ from datetime import datetime
 from sense_hat import SenseHat
 sense=SenseHat()
 defaultFilePath="./weatherlog" # File extensions are added by the script
-defaultFormat="text" # text | json | csv(WIP)
+defaultFormat="text" # text | json | log | csv
 defaultIncrement=10  # Daily: 60*60*24 | Hourly: 60*60 | Every 15min: 60*15
 helpTxt="""
 --------------------------------------------------------------------------------------------
