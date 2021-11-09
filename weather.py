@@ -5,7 +5,7 @@ from genericpath import exists
 from datetime import datetime
 from sense_hat import SenseHat
 sense=SenseHat()
-defaultFilePath="./weather.txt"
+defaultFilePath="./logs/weather.txt"
 defaultFormat="text" # text | json | log | csv
 defaultIncrement=10  # Daily: 60*60*24 | Hourly: 60*60 | Every 15min: 60*15
 helpTxt="""
